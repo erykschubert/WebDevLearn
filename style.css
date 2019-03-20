@@ -21,3 +21,77 @@ h1, h2 {
     font-size: 2em;
     color: burlywood;
 }
+
+.wazowski {
+    background-color: #97d5ba;
+    height: 200px;
+}
+
+.circural {
+    border-radius: 100%;
+}
+
+/* There are many pseudo classes, this is one of those: */
+.wazowski:hover {
+    background-color: burlywood;
+}
+
+/* Relative position is used to move the gost of the object, but object stays in the same place */
+.first-container {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    background-color: #8bc6c9;
+    text-align: center;
+    left: 208px;
+}
+
+.second-container {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    background-color: #d5d898;
+    text-align: center;
+    right: 104px;
+}
+
+.third-container {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    background-color: #ca9bbc;
+    text-align: center;
+    right: 104px;
+}
+
+.first-container h1 {
+    color: white;
+}
+
+.second-container h1 {
+    color: white;
+}
+
+.third-container h1 {
+    color: white;
+}
+
+/* Absolute position is used to move the object within the parent object */
+
+.parent-container {
+    background-color: #d5d898;
+}
+
+.parent-container p {
+    display: inline-block;
+}
+
+.child-container {
+    background-color: #c6ca73;
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+}
