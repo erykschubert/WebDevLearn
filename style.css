@@ -1,0 +1,23 @@
+body {
+    background-color: #e0ebe8;
+}
+
+hr {
+    border-style: none;
+    border-top: 5px dotted #dddbdb;
+    width: 6%;
+}
+
+h1, h2 {
+    color: #66bfbf;
+}
+
+#pierwszy_paragraf {
+    font-size: 1.5em;
+    color:#31ac84;
+}
+
+.drugi_paragraf {
+    font-size: 2em;
+    color: burlywood;
+}
