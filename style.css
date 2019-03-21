@@ -36,7 +36,8 @@ h1, h2 {
     background-color: burlywood;
 }
 
-/* Relative position is used to move the gost of the object, but object stays in the same place */
+/* Relative position is used to move the gost of the object, but object stays in the same place so 
+ it does not affect the position of other objects */
 .first-container {
     width: 100px;
     height: 100px;
@@ -79,7 +80,8 @@ h1, h2 {
     color: white;
 }
 
-/* Absolute position is used to move the object within the parent object */
+/* Absolute position is used to move the object within the parent object 
+ and it does affect the position of other objects, because other objects cannot see the absolute  */
 
 .parent-container {
     background-color: #d5d898;
