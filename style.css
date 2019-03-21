@@ -84,16 +84,51 @@ h1, h2 {
  and it does affect the position of other objects, because other objects cannot see the absolute  */
 
 .parent-container {
+    margin: 20px;
     background-color: #d5d898;
+    width: 300px;
+    height: 300px;
+    position: relative;
 }
 
 .parent-container p {
     display: inline-block;
+    margin: 0;
+}
+
+.parent-container:hover {
+    background-color: #b7bb66;
 }
 
 .child-container {
-    background-color: #c6ca73;
-    display: inline-block;
+    background-color: #c6ca73;    
+    top: 75px;
+    left: 75px;
+    width: 50%;
+    height: 50%;
     position: absolute;
-    left: 500px;
+}
+
+.child-container:hover {
+    background-color: #85990f;
+}
+
+.fixed-container {
+    background-color: #93b986;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+}
+
+.fixed-container:hover {
+    border: 2px solid #97d5ba;
+    background-color: #f1f5f1;
+    top: 18px;
+    right: 18px;
+}
+
+.fixed-container p {
+    margin: 0;
+    padding: 0;
 }
