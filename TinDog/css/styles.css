@@ -180,3 +180,52 @@ body {
     background-color: #dd944a;
     color: white;
 }
+
+/* CTA Section */
+
+#cta {
+    text-align: center;
+    background-color: #dd944a;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    color: white;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 8%;
+}
+
+.dwn-button{
+    margin: 0px 25px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;    
+    padding: 7% 15%;
+    color: #8f8f8f;
+}
+
+#footer i {
+    padding: 0% 10px;
+}
+
+/* Media */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        transform: rotate(0);
+        z-index: 0;
+        position: static;
+    }
+}
