@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fale</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .header {
+            background-color: #8ed8ec;
+            height: 25rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .front-page {
+            padding: 7% 15%;
+            background-color: #48B1CD;
+            color: white;
+            text-align: center;
+			height: 80rem;
+        }
+
+        .footer {
+            background-color: #48B1CD;
+			position: relative;
+        }
+		
+		.dno {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: auto;
+		}
+
+        .fala1 {
+            position: absolute;
+            bottom: 0;
+            left: -25px;
+            width: 110%;
+            height: auto;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-name: fala1-animation;
+            -webkit-animation-duration: 9s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            /* Standard syntax */
+            animation-name: fala1-animation;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes fala1-animation {
+            0%   { bottom: 0; left: -25px; }
+            10%  { bottom: -5px; left: -20px; }
+            20%  { bottom: -10px; left: -15px; }
+            30%  { bottom: -10px; left: -10px; }
+            40%  { bottom: -5px; left: -5px; }
+            50%   { bottom: 0; left: 0;}
+            60%  { bottom: -5px; left: -5px; }
+            70%  { bottom: -10px; left: -10px; }
+            80%  { bottom: -10px; left: -15px; }
+            90%  { bottom: -5px; left: -20px; }
+            100%   { bottom: 0; left: -25px;}
+        }
+
+        /* Standard syntax */
+        @keyframes fala1-animation {
+            0%   { bottom: 0; left: -25px; }
+            10%  { bottom: -5px; left: -20px; }
+            20%  { bottom: -10px; left: -15px; }
+            30%  { bottom: -10px; left: -10px; }
+            40%  { bottom: -5px; left: -5px; }
+            50%   { bottom: 0; left: 0;}
+            60%  { bottom: -5px; left: -5px; }
+            70%  { bottom: -10px; left: -10px; }
+            80%  { bottom: -10px; left: -15px; }
+            90%  { bottom: -5px; left: -20px; }
+            100%   { bottom: 0; left: -25px;}
+        }
+
+        .fala2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 110%;
+
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-name: fala2-animation;
+            -webkit-animation-duration: 8s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            /* Standard syntax */
+            animation-name: fala2-animation;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+                /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes fala2-animation {
+            0%   { bottom: 0; left: 0; }
+            10%  { bottom: -5px; left: -5px; }
+            20%  { bottom: -10px; left: -10px; }
+            30%  { bottom: -10px; left: -15px; }
+            40%  { bottom: -5px; left: -20px; }
+            50%   { bottom: 0; left: -25px;}
+            60%  { bottom: -5px; left: -20px; }
+            70%  { bottom: -10px; left: -15px; }
+            80%  { bottom: -10px; left: -10px; }
+            90%  { bottom: -5px; left: -5px; }
+            100%   { bottom: 0; left: 0;}
+        }
+
+        /* Standard syntax */
+        @keyframes fala2-animation {
+            0%   { bottom: 0; left: 0; }
+            10%  { bottom: -5px; left: -5px; }
+            20%  { bottom: -10px; left: -10px; }
+            30%  { bottom: -10px; left: -15px; }
+            40%  { bottom: -5px; left: -20px; }
+            50%   { bottom: 0; left: -25px;}
+            60%  { bottom: -5px; left: -20px; }
+            70%  { bottom: -10px; left: -15px; }
+            80%  { bottom: -10px; left: -10px; }
+            90%  { bottom: -5px; left: -5px; }
+            100%   { bottom: 0; left: 0;}
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <img src="fala_2.png" alt="" class="fala2">
+        <img src="fala_1.png" alt="" class="fala1">
+    </section>
+    <section class="front-page">
+    </section>
+    <section class="footer">
+        <img src="dno.png" alt="" class="dno">
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
